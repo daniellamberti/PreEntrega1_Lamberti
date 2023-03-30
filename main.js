@@ -53,7 +53,7 @@ switch(faltas) {
 /* Se realizan las operaciones necesarias para obtener la NOTA PROMEDIO FINAL del curso. */
 let notaPromFinal = [(promedioInstrumento + promedioTeoria + promedioArmonia + promedioEnsamble) / 4] + puntoExtra - faltas;
 
-alert("Segun los datos ingresados, considerando la nota promedio de las 4 notas de Instrumento, Teoría, Armonía y Ensamble, más el agregado eventual de 1 punto por haber asistido a clases extras, más el descuento eventual de 2 puntos por faltas, tu nota promedio final del curso es " + notaPromFinal.toFixed(2));
+alert("Segun los datos ingresados, considerando la nota promedio de las notas de Instrumento, Teoría, Armonía y Ensamble, más el agregado eventual de 1 punto por haber asistido a clases extras, más el descuento eventual de 2 puntos por faltas, tu nota promedio final del curso es " + notaPromFinal.toFixed(2));
 
 if (notaPromFinal >=6) {
 	alert("Tu nota promedio final de curso es igual o mayor que 6 por lo tanto estas APROBADO");
